@@ -1,47 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Weather App</title>
     <link rel="stylesheet" href="./index.css">
 </head>
+
 <body>
+
     <div class="container">
-        <div class="first">
-            <input type="text" placeholder="entre city name" >
-        <div class="button">
-           <button>
-              <img src="images.png">
-           </button>
-        </div>
-        </div>
-           <div class="second">
-                <div class="mainimage">
-                   <img src="sunny.jpeg">
+
+        <form class="form">
+
+            <div class="userinput">
+
+                <div class="first">
+                    <input
+                        type="text"
+                        placeholder="Enter city name"
+                        class="input"
+                    >
                 </div>
-           </div>
+
+                <div class="button">
+                    <button type="submit">
+                        <img src="images.png">
+                    </button>
+                </div>
+
+            </div>
+
+        </form>
+
+        <div class="second">
+
+            <div class="mainimage">
+                <img src="sunny.jpeg" class="firstimage">
+            </div>
+
+        </div>
+
         <div class="third">
-            <h3 class="city">City name : Delhi</h1>
-            
-            <h3 class="temp">Temperature: 33°C</h1>
+
+            <h3 class="city">City name : Delhi</h3>
+
+            <h3 class="temp">Temperature: 33°C</h3>
+
         </div>
-        
+
         <div class="details">
+
             <div class="humid">
-                
                 <img src="humid.jpeg">
-                <h4>humidity:30%</h1>
+                <h4 class="humidity">Humidity: 30%</h4>
             </div>
+
             <div class="speed">
-                
                 <img src="windSpeed.jpg">
-                <h4>wind speed :6km/hr</h2>
+                <h4 class="windspeed">Wind speed: 6 km/hr</h4>
             </div>
+
         </div>
-        
+
     </div>
-    
+
     <script src="./index.js"></script>
+
 </body>
 </html>

@@ -21,6 +21,12 @@ body{
 
     flex-wrap: wrap;
 }
+.userinput{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    
+}
 .first{
     width:70%;
     background-color: rgb(164, 199, 190);
@@ -28,6 +34,7 @@ body{
     border-radius: 20px;
     display: flex;
     justify-content:center;
+    flex-direction:row;
     
 }
 .second{
@@ -53,7 +60,7 @@ body{
 }
 input{
     height:40px;
-    width: 60%;
+    width: 80%;
     text-align: center;
     border-radius: 30px;
     border: none;
